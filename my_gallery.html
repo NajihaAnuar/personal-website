@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<head><title>My Gallery</title></head>
+<body>
+<header>
+<style>
+     body{
+	  background-image:url("wallpaper3.png");
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;
+	  background-size: cover;}
+</style>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  background-color: #f1f1f1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+  background-color: #445688;
+  position: fixed;
+  top: -50px;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #8E80CF;
+  color:black;
+}
+</style>
+</head>
+<body>
+
+<div id="navbar">
+<td><a href="index.html">Home</a></td>
+<td><a href="my_biodata.html">My Biodata</a></td>
+<td><a href="my_family.html">My Family</a></td>
+<td><a href="my_education.html">My Education</a></td>
+<td><a href="my_gallery.html">My Gallery</a></td>
+<td><a href="other.html">Other</a></td>
+</div>
+
+<div style="padding:15px 15px 100px;font-size:30px">
+ </div>
+
+<script>
+// When the user scrolls down 20px from the top of the document, slide down the navbar
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+}
+</script>
+<h1 style="font-size:50px; text-align:center;">About Myself</h1>
+
+<center><p style=font-size:20px; margin-bottom:50px;">I am Nur Najiha Binti Anuar a student from Uitm Kedah.
+<br>Currently studying library management and this is my personal website.
+<br>I make this website for this individual assignment of subject IML470</p></center>
+</header>
+<h1>
+<h1 style="background-color: #F3C29F; font-family:broadway; text-align:center; color: black;">My Gallery</h1>
+
+<p><h3 font-family:Broadway;">Click on the play button to play a sound:</h3></p>
+<audio controls>
+        <source src="lagu5.mp3" align="right" type="audio/mpeg">
+      </audio>
+
+<br><center><img src="gallerygif.gif" alt="gif"style="width:600px;height:300px;"></center></br>
+
+<center><img src="Colage1.jpg" width="300px" height="400px"
+title="This is my friends">
+<img src="Colage2.jpg" width="300px" height="400px"
+title="This is my family">
+<img src="Colage3.jpg" width="300px" height="400px">
+<img src="classmate.jpg" width="300px" height="400px"
+title="This is my classmate">
+<img src="Colage4.jpg" width="300px" height="400px"
+title="This is my sibling">
+<img src="Colage5.jpg" width="300px" height="400px"
+title="This is me">
+<img src="Colage6.jpg" width="300px" height="400px"
+title="This is me with my friends">
+<img src="Colage8.jpg" width="300px" height="400px"
+title="This is my cat">
+
+<center><video width="400" controls>
+  <source src="raya.mp4" type="video/mp4">
+  <source src="raya.ogg" type="video/ogg">
+  
+</video></center>
+
+<h2><a href="#top"> Scroll To Top </a></h2>
+<p><strong>Made with love<3</p>
+<hr>
+<footer>
+Copyright &copy; About Myself 2024-2025
+
+
+</body>
